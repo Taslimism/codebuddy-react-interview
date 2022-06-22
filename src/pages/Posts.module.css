@@ -1,0 +1,28 @@
+.posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.card {
+  height: 400px;
+}
+
+.card img {
+  height: 70%;
+  width: 100%;
+}
+@media screen and (max-width: 1007px) {
+  .posts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .posts {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
